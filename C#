@@ -1,8 +1,0 @@
-Algo
-
-```
-string firstName = "John"; 
-string lastName = "Doe"; 
-string name = $"My full name is: {firstName} {lastName}"; 
-Console.WriteLine(name); //Output: My full name is: John Doe
-```
