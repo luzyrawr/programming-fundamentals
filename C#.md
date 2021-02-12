@@ -1,3 +1,4 @@
+# C# Basic Concepts
 ## String Interpolation
 
 Another option of string concatenation, is string interpolation, which substitutes values of variables into placeholders in a string. Note that you do not have to worry about spaces, like with concatenation:
@@ -110,6 +111,8 @@ namespace MyApplication
 ```
 ## Struct
 
+# C# Advanced Concepts
 
-## Fuentes
+### Fuentes
 https://www.w3schools.com/cs/default.asp
+https://www.tutorialsteacher.com/csharp
