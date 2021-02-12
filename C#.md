@@ -57,6 +57,36 @@ Array.Sort(myNum);
 If values are not assigned to enum members, then the compiler will assign integer values to each member starting with zero by default. The first member of an enum will be 0, and the value of each successive enum member is increased by 1.
 
 ```
+enum WeekDays
+{
+    Monday,     // 0
+    Tuesday,    // 1
+    Wednesday,  // 2
+    Thursday,   // 3
+    Friday,     // 4
+    Saturday,   // 5
+    Sunday      // 6
+}
+```
+
+You can even assign different values to each member.
+
+```
+enum Categories
+{
+    Electronics = 1,  
+    Food = 5, 
+    Automotive = 6, 
+    Arts = 10, 
+    BeautyCare = 11, 
+    Fashion = 15,
+    WomanFashion = 15
+}
+```
+
+Access and convert enums
+
+```
 using System; 
 namespace MyApplication 
 { 
@@ -78,20 +108,4 @@ namespace MyApplication
   } 
 }
 ```
-
-You can even assign different values to each member.
-
-```
-enum Categories
-{
-    Electronics = 1,  
-    Food = 5, 
-    Automotive = 6, 
-    Arts = 10, 
-    BeautyCare = 11, 
-    Fashion = 15,
-    WomanFashion = 15
-}
-```
-
 ## Struct
