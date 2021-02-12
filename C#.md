@@ -114,5 +114,5 @@ namespace MyApplication
 # C# Advanced Concepts
 
 # Fuentes
-https://www.w3schools.com/cs/default.asp
-https://www.tutorialsteacher.com/csharp
+* https://www.w3schools.com/cs/default.asp
+* https://www.tutorialsteacher.com/csharp
