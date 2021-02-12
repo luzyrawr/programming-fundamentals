@@ -54,6 +54,8 @@ Array.Sort(myNum);
 
 ## Enums
 
+If values are not assigned to enum members, then the compiler will assign integer values to each member starting with zero by default. The first member of an enum will be 0, and the value of each successive enum member is increased by 1.
+
 ```
 using System; 
 namespace MyApplication 
@@ -74,6 +76,21 @@ namespace MyApplication
       Console.WriteLine((int) myVar);         //Output: 1
     } 
   } 
+}
+```
+
+You can even assign different values to each member.
+
+```
+enum Categories
+{
+    Electronics = 1,  
+    Food = 5, 
+    Automotive = 6, 
+    Arts = 10, 
+    BeautyCare = 11, 
+    Fashion = 15,
+    WomanFashion = 15
 }
 ```
 
