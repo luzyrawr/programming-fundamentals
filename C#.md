@@ -109,6 +109,7 @@ namespace MyApplication
   } 
 }
 ```
+
 ## Struct
 
 In C#, **struct** is the value type data type that represents data structures. It can contain a parameterized constructor, static constructor, constants, fields, methods, properties, indexers, operators, events, and nested types.
@@ -133,6 +134,8 @@ Coordinate point = new Coordinate(10, 20);
 Console.WriteLine(point.x); //output: 10  
 Console.WriteLine(point.y); //output: 20  
 ```
+
+More info about Struct: https://www.dotnetperls.com/struct
 
 # C# Advanced Concepts
 
