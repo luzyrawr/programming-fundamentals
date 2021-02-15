@@ -143,6 +143,8 @@ More info about Struct: https://www.dotnetperls.com/struct
 
 A relationship between two classes that allows one to inherit code from the other. Also known as an "Is-A" relationship. Example: A Car is a Vehicle. Allows code re-use and has polymorphic behaviour.
 
+We have a class *PresentationObject*
+
 ```
 using System;
 
@@ -166,6 +168,8 @@ namespace Inheritance
 }
 ```
 
+And we have a class *Text* that is a *PresentationObject*
+
 ```
 using System;
 
@@ -188,6 +192,45 @@ namespace Inheritance
 ## Composition
 
 A relationship between two classes that allows one to contain the other. Also known as a "Has-a" relationship. Example: Car has an Engine. Allows code re-use, is flexible and it's used to design loose-coupling aplications.
+
+We have a class *Logger*
+
+```
+using System;
+
+namespace Composition
+{
+    public class Logger
+    {
+        public void Log(string message)
+        {
+            Console.WriteLine(message);
+        }
+    }
+}
+```
+
+We have a class *DbMigrator* that has a *Logger*
+
+```
+namespace Composition
+{
+    public class DbMigrator
+    {
+        private readonly Logger _logger;
+
+        public DbMigrator(Logger logger)
+        {
+            _logger = logger;
+        }
+
+        public void Migrate()
+        {
+            _logger.Log("We are migrating blah blah blah...");
+        }
+    }
+}
+```
 
 # C# Advanced Concepts
 
