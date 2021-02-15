@@ -141,7 +141,7 @@ More info about Struct: https://www.dotnetperls.com/struct
 
 ## Inheritance
 
-A relationship between two classes that allows one to inherit code from the other. Also know as an "Is-A" relationship. Example: A Car is a Vehicle.
+A relationship between two classes that allows one to inherit code from the other. Also know as an "Is-A" relationship. Example: A Car is a Vehicle. Allows code re-use and has polymorphic behaviour.
 
 ## Composition
 
