@@ -137,6 +137,14 @@ Console.WriteLine(point.y); //output: 20
 
 More info about Struct: https://www.dotnetperls.com/struct
 
+# C# Intermediate Concepts
+
+## Inheritance
+
+A relationship between two classes that allows one to inherit code from the other. Also know as an "Is-A" relationship. Example: A Car is a Vehicle.
+
+## Composition
+
 # C# Advanced Concepts
 
 # Fuentes
