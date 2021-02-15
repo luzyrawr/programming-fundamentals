@@ -141,9 +141,11 @@ More info about Struct: https://www.dotnetperls.com/struct
 
 ## Inheritance
 
-A relationship between two classes that allows one to inherit code from the other. Also know as an "Is-A" relationship. Example: A Car is a Vehicle. Allows code re-use and has polymorphic behaviour.
+A relationship between two classes that allows one to inherit code from the other. Also known as an "Is-A" relationship. Example: A Car is a Vehicle. Allows code re-use and has polymorphic behaviour.
 
 ## Composition
+
+A relationship between two classes that allows one to contain the other. Also known as a "Has-a" relationship. Example: Car has an Engine. Allows code re-use, is flexible and it's used to design loose-coupling aplications.
 
 # C# Advanced Concepts
 
