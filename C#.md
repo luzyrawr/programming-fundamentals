@@ -268,6 +268,13 @@ if(otherCircle != null)
 {
   ...
 }
+
+//Using the is keyword
+if(otherCircle is Circle)
+{
+  Circle otherCircle = (Circle)shape;
+  ...
+}
 ```
 
 # C# Advanced Concepts
