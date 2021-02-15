@@ -232,6 +232,36 @@ namespace Composition
 }
 ```
 
+## Upcasting and Downcasting
+
+Convertions between Base Class and Derived Class
+
+```
+public class Shape
+{
+}
+
+public class Circle : Shape
+{
+}
+```
+
+Upcasting is used to convert a derived class to it's base class.
+
+```
+Circle circle = new Circle();
+Shape shape = circle;
+```
+
+Downcasting is used to convert a base class to a derived class.
+
+```
+Circle circle = new Circle();
+Shape shape = circle;
+
+Circle otherCircle = (Circle)shape;
+```
+
 # C# Advanced Concepts
 
 # Fuentes
