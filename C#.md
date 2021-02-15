@@ -259,7 +259,15 @@ Downcasting is used to convert a base class to a derived class.
 Circle circle = new Circle();
 Shape shape = circle;
 
+//Using a explicit convertion
 Circle otherCircle = (Circle)shape;
+
+//Using the as keyword
+Circle otherCircle = shape as Circle;
+if(otherCircle != null)
+{
+  ...
+}
 ```
 
 # C# Advanced Concepts
