@@ -297,6 +297,23 @@ public void MethodA([In][Out] ref double x)
 }
 ```
 
+## Reflection
+Reflection objects are used for obtaining type information at runtime. The classes that give access to the metadata of a running program are in the System.Reflection namespace. The System.Reflection namespace contains classes that allow you to obtain information about the application and to dynamically add types, values, and objects to the application.
+
+Reflection has the following applications −
+
+* It allows view attribute information at runtime.
+* It allows examining various types in an assembly and instantiate these types.
+* It allows late binding to methods and properties.
+* It allows creating new types at runtime and then performs some tasks using those types.
+
+```
+// Using GetType to obtain type information:
+int i = 42;
+Type type = i.GetType();
+Console.WriteLine(type); //The output is: System.Int32.
+```
+
 # Fuentes
 * https://www.w3schools.com/cs/default.asp
 * https://www.tutorialsteacher.com/csharp
