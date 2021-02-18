@@ -318,3 +318,4 @@ Console.WriteLine(type); //The output is: System.Int32.
 * https://www.w3schools.com/cs/default.asp
 * https://www.tutorialsteacher.com/csharp
 * https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/attributes/
+* https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/reflection
