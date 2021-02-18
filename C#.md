@@ -290,6 +290,11 @@ public class SampleClass
 {
     // Objects of this type can be serialized.
 }
+
+public void MethodA([In][Out] ref double x) 
+{ 
+    // Parameters to methods can have attributes
+}
 ```
 
 # Fuentes
