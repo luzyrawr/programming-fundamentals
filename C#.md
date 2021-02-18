@@ -279,6 +279,19 @@ if(otherCircle is Circle)
 
 # C# Advanced Concepts
 
+## Attributes
+An attribute is a declarative tag that is used to convey information to runtime about the behaviors of various elements like classes, methods, structures, enumerators, assemblies etc. in your program. **You can add declarative information to a program by using an attribute**. A declarative tag is depicted by square ([ ]) brackets placed above the element it is used for.
+
+Attributes are used for adding metadata, such as compiler instruction and other information such as comments, description, methods and classes to a program. The .Net Framework provides two types of attributes: the pre-defined attributes and custom built attributes.
+
+```
+[Serializable]
+public class SampleClass
+{
+    // Objects of this type can be serialized.
+}
+```
+
 # Fuentes
 * https://www.w3schools.com/cs/default.asp
 * https://www.tutorialsteacher.com/csharp
