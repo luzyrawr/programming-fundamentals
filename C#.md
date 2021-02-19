@@ -336,6 +336,26 @@ intStore.Data = 100;
 //intStore.Data = "Hello World!"; // compile-time error
 ```
 
+### Generic Constraints
+C# allows you to use constraints to restrict client code to specify certain types while instantiating generic types. It will give a compile-time error if you try to instantiate a generic type using a type that is not allowed by the specified constraints.
+
+You can specify one or more constraints on the generic type using the where clause after the generic type name.
+
+```
+GenericTypeName<T> where T  : contraint1, constraint2
+
+class DataStore<T> where T : class
+{
+    public T Data { get; set; }
+}
+
+DataStore<string> store = new DataStore<string>(); // valid
+DataStore<MyClass> store = new DataStore<MyClass>(); // valid
+DataStore<IMyInterface> store = new DataStore<IMyInterface>(); // valid
+DataStore<IEnumerable> store = new DataStore<IMyInterface>(); // valid
+DataStore<ArrayList> store = new DataStore<ArrayList>(); // valid
+//DataStore<int> store = new DataStore<int>(); // compile-time error 
+```
 
 # Fuentes
 * https://www.w3schools.com/cs/default.asp
