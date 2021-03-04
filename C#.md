@@ -357,7 +357,11 @@ DataStore<ArrayList> store = new DataStore<ArrayList>(); // valid
 //DataStore<int> store = new DataStore<int>(); // compile-time error 
 ```
 
+### Built-in Exceptions
 
+The Exception class is the base class of the SystemException and ApplicationException classes. 
+- The SystemException class is the base class for all the exceptions that can occur during the execution of the program. 
+- The ApplicationException class should be derive to create your own custom exception class. The custom exeception class can be created for business rule violations or for other application related errors.
 
 
 
