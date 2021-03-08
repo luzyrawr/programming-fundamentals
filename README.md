@@ -10,7 +10,7 @@ Conceptos de programación básicos en distintos temas para fortalecer las bases
 4. API REST
 5. Unit Testing
 6. Mocking
-7. TDD - Test-Driven Devolopment
+7. TDD - Test-Driven Development
 
 ### Front-End
 1. HTML5
