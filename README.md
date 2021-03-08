@@ -8,6 +8,9 @@ Conceptos de programación básicos en distintos temas para fortalecer las bases
 2. Estructura de Datos
 3. MVC
 4. API REST
+5. Unit Testing
+6. Mocking
+7. TDD - Test-Driven Devolopment
 
 ### Front-End
 1. HTML5
