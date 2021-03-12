@@ -137,6 +137,12 @@ Console.WriteLine(point.y); //output: 20
 
 More info about Struct: https://www.dotnetperls.com/struct
 
+## Readonly Property
+
+```
+public IReadOnlyCollection<TransactionItem> TransactionItems => _transactionItems.AsReadOnly();
+```
+
 # C# Intermediate Concepts
 
 ## Inheritance
