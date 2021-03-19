@@ -9,7 +9,7 @@ Conceptos de programación básicos en distintos temas para fortalecer las bases
 1. Unit Testing
 1. Mocking
 1. TDD - Test-Driven Development
-1. MVC
+1. ASP .NET MVC
 1. API REST
 
 ### Front-End
