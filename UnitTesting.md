@@ -1,6 +1,16 @@
 # Unit Testing
 ## Naming Conventions
-Recomentations when naming unit testing methods.
+### Recommendations when naming unit testing projects.
+**Naming Pattern:** ProjectUnderTest.Tests
+
+**Example:** Business.Tests
+
+### Recommendations when naming unit testing classes.
+**Naming Pattern:** ClassUnderTestTests
+
+**Example:** SerialPortParserTests
+
+### Recommendations when naming unit testing methods.
 
 **Naming Pattern:** "UnitUnderTest_Scenario_ExprectedOutcome"
 
