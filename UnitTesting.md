@@ -22,3 +22,9 @@
     - **ReturnsValue:** for example ReturnZero.
     - **ChangesState or SetState:** for example SetNumberToZero. Recomended when the outcome of the test can be observed via its public properties.
     - **CallsDependency:** for example CallsProcessingGateway. Recomended when we validate the correctness of interactions between objects.
+
+## Arrange-Act-Assert
+Almost all test consist of thre steps: Arrange, Act and Assert.
+- Arrange: set up the system under test.
+- Act: calling of the methods.
+- Assert: verify the correctness of the behavior by assertions.
