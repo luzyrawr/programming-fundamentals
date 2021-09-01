@@ -25,6 +25,6 @@
 
 ## Arrange-Act-Assert
 Almost all test consist of thre steps: Arrange, Act and Assert.
-- Arrange: set up the system under test.
-- Act: calling of the methods.
-- Assert: verify the correctness of the behavior by assertions.
+- **Arrange:** set up the system under test.
+- **Act:** calling of the methods.
+- **Assert:** verify the correctness of the behavior by assertions.
