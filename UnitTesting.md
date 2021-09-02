@@ -73,3 +73,8 @@ It's a metric that shows the amount of code covered by tests. Only available in 
 
 ## Test Doubles
 Test Double is any special testing object that replace the real dependencies to alter the behavior of an original object in some way.
+```
+                 --> Fake  
+  Test Double   
+                 --> Dummy --> Stub --> Spy --> Mock
+```
