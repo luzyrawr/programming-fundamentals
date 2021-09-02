@@ -86,3 +86,12 @@ It's a metric that shows the amount of code covered by tests. Only available in 
 - **Spy:** is a stub which saves some information about the calls made on the spy. It allows to verify what argument values were passed in the methods, how many times any methods were called, in what order the methods were called.
 - **Mock:** is a spy, but mock contains assertions inside itself, so a mock can cause the failure of a test.
 - **Fake:** is a test double which simulates the behavior of a real dependency as close to reality as possible.
+
+## Mocking Frameworks
+Mocking Frameworks are independent of Unit Testing Frameworks. They help to automate the creation of Test Doubles.
+Types of mocking frameworks: **Constrained and Unconstrained.**
+
+- **Constrained Frameworks**
+    - Cannot create test doubles for private methods or static methods.
+    - Generate code at runtime that inherits and overrides interfaces or base classes.
+    - You can create test dobules only for the code for which you can create test doubles manually.
