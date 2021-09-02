@@ -40,9 +40,11 @@ public void test(int value, int expected)
 }
 ```
 
+## SetUp and TearDown Attributes
+- `[Setup]` is an attribute for methods to define that it will run before every test.
+- `[TearDown]` is an attribute for methods to define that it will run after every test.
 
-## SetUp and TearDown
+## OneTimeSetUp and OneTimeTearDown Atrributes
 
-## OneTimeSetUp and OneTimeTearDown
 
 ## Testing Exceptions
