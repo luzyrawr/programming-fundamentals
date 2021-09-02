@@ -45,6 +45,7 @@ public void test(int value, int expected)
 - `[TearDown]` is an attribute for methods to define that it will run after every test.
 
 ## OneTimeSetUp and OneTimeTearDown Atrributes
-
+- `[OneTimeSetUp]` is an attribute for methods to define that it will run before all the test of the Assembly or Namespace.
+- `[OneTimeTearDown]` is an attribute for methods to define that it will run after all the test of the Assembly or Namespace.
 
 ## Testing Exceptions
