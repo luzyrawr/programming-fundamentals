@@ -95,3 +95,4 @@ Types of mocking frameworks: **Constrained and Unconstrained.**
     - Cannot create test doubles for private methods or static methods.
     - Generate code at runtime that inherits and overrides interfaces or base classes.
     - You can create test dobules only for the code for which you can create test doubles manually.
+    - Examples: NSubstitute, Moq, RhinoMock
