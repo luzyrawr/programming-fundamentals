@@ -57,3 +57,13 @@ public void test_throwException()
    Assert.Throws<FormatException>(action);
 }
 ```
+
+## Group Tests
+```
+[Category("")] attribute
+```
+
+## Ignore Tests
+```
+[Ignore] attribute
+```
