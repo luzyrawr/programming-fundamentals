@@ -30,7 +30,8 @@ Almost all test consist of thre steps: Arrange, Act and Assert.
 - **Assert:** verify the correctness of the behavior by assertions.
 
 ## Parametrized Tests
-Example
+Use TestCase attribute. Example:
+
 ```
 [TestCase(1,40)]
 public void test(int value, int expected)
