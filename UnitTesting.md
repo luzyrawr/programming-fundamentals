@@ -70,3 +70,6 @@ public void test_throwException()
 
 ## Code Coverage
 It's a metric that shows the amount of code covered by tests. Only available in VS Enterprise :(
+
+## Test Doubles
+Test Double is any special testing object that replace the real dependencies to alter the behavior of an original object in some way.
