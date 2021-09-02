@@ -60,7 +60,7 @@ public void test_throwException()
 
 ## Group Tests
 ```
-[Category("")] attribute
+[Category("GroupName")] attribute
 ```
 
 ## Ignore Tests
