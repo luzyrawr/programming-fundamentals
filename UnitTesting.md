@@ -103,6 +103,6 @@ Types of mocking frameworks: **Constrained and Unconstrained.**
     - Example: Typemock Isolator.
 
 # Notes 👀
-- **Good unit tests are just regular clients of the production code, it can call only public members.**
-- **Tests which need to create test doubles for private methods are very suspicious.**
-- **Most likely, if you need to cheat the public API somehow, you have problems with the desing. You need to refactor the production code to enable unit testing.**
+- **Good unit tests are just regular clients of the production code**, it can call only public members.
+- Tests which need to create **test doubles for private methods are very suspicious.**
+- Most likely, **if you need to cheat the public API somehow, you have problems with the desing.** You need to refactor the production code to enable unit testing.
