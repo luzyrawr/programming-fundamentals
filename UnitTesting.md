@@ -67,3 +67,6 @@ public void test_throwException()
 ```
 [Ignore] attribute
 ```
+
+## Code Coverage
+It's a metric that shows the amount of code covered by tests. Only available in VS Enterprise :(
