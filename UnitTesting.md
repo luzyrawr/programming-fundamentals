@@ -72,13 +72,16 @@ public void test_throwException()
 It's a metric that shows the amount of code covered by tests. Only available in VS Enterprise :(
 
 ## Test Doubles
-Test Double is any special testing object that replace the real dependencies to alter the behavior of an original object in some way.
+**Test Double** is any special testing object that replace the real dependencies to alter the behavior of an original object in some way.
 ```
                  --> Fake  
   Test Double   
                  --> Dummy --> Stub --> Spy --> Mock
 ```
 
+**Interaction testing** is how an object sends messages (calls methods) to other objects. We use interaction testing when calling another object is the result of a specific unit of work.
+
 - **Dummy:** is a test double which returns values which are either null in case of returning a reference type or close to zero in the case of structures. Dummies just do nothing inside methods which are not supposed to return anything.
 - **Stub:** is a dummy which is set so that it returns predefined constant values from the methods called on the object which that stub replaces. Use stubs to drive the execution flow through specific pathways.
-- 
+- **Spy:** is a stub which saves some information about the calls made on the spy. It allows to verify what argument values were passed in the methods, how many times any methods were called, in what order the methods were called.
+- **Mock:** is a spy, but mock contains assertions inside itself, so a mock can cause the failure of a test.
