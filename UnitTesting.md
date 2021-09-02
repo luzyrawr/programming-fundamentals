@@ -78,3 +78,7 @@ Test Double is any special testing object that replace the real dependencies to 
   Test Double   
                  --> Dummy --> Stub --> Spy --> Mock
 ```
+
+- **Dummy:** is a test double which returns values which are either null in case of returning a reference type or close to zero in the case of structures. Dummies just do nothing inside methods which are not supposed to return anything.
+- **Stub:** is a dummy which is set so that it returns predefined constant values from the methods called on the object which that stub replaces. Use stubs to drive the execution flow through specific pathways.
+- 
