@@ -34,7 +34,7 @@ Use TestCase attribute. Example:
 
 ```
 [TestCase(1,40)]
-public void test(int value, int expected)
+public void test_parametrized(int value, int expected)
 {
     ...
 }
@@ -49,3 +49,11 @@ public void test(int value, int expected)
 - `[OneTimeTearDown]` is an attribute for methods to define that it will run after all the test of the Assembly or Namespace.
 
 ## Testing Exceptions
+Example:
+```
+public void test_throwException()
+{
+   TestDelegate action = () => Class.method(0);
+   Assert.Throws<FormatException>(action);
+}
+```
