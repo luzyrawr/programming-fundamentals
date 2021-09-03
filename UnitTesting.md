@@ -135,3 +135,8 @@ Types of mocking frameworks: **Constrained and Unconstrained.**
   - Adding a new test to a particular order, you need to think about when that test should run.
   - Ordered tests are slower.
   - Ordered tests are hard to maintain.
+- Over specification
+  - Assert purely internal state in an object under test.
+  - User more than une mock in a single test.
+  - Use both stubs and mocks in a single test.
+  - Assert specific call orders or exact string matches when it isn't required.
