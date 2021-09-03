@@ -11,6 +11,10 @@ Conceptos de programación básicos en distintos temas para fortalecer las bases
 1. [TDD - Test-Driven Development](https://github.com/luzyrawr/selfstudy/blob/main/TDD.md)
 1. Functional Programming
 
+## Testing
+1. Integration Tests
+1. End-To-End Tests
+
 ### .NET
 1. ASP .NET MVC
 1. API REST
