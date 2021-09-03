@@ -117,3 +117,6 @@ Types of mocking frameworks: **Constrained and Unconstrained.**
 ### When to write Mocks
 - Unit tests should not test the correctness of interaction between domain objcts. Such tests experience lots of false positives and worse maintainability since they usually involve the writing of mocks.
 - Always choose to use interaction testing only as the last option. Try to rely on tests that verify state or returning values, because so many things become much more complicated by having interaction tests.
+
+### One-Assert-Per-Test
+Test one aspect/behaviour in each test.
