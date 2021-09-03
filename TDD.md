@@ -7,5 +7,5 @@ Unit tests are specifications of what the code should do. Writing unit tests in 
 
 ## Three Main TDD Techniques
 - **Faking:** implies returning a constant and gradually replace constants with variables until you have the real code.
-- **Triangulation:** is the process of affing test cases until the right way of implementation starts to emerge.
+- **Triangulation:** is the process of affing test cases until the right way of implementation starts to emerge. Usually, two or three cases are enough to stop triangulation. Faking and Triangulation leads to the implementacion when the way of generalization becomes obvious.
 - **Obvious Implementation:**
