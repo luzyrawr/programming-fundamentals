@@ -102,7 +102,13 @@ Types of mocking frameworks: **Constrained and Unconstrained.**
     - Generate code at runtime. Based on the profiling APIs. These APIs provide events for anything that happens during CLR code execution.
     - Example: Typemock Isolator.
 
-# Notes 👀
+## Notes 👀
 - **Good unit tests are just regular clients of the production code**, it can call only public members.
 - Tests which need to create **test doubles for private methods are very suspicious.**
 - Most likely, **if you need to cheat the public API somehow, you have problems with the desing.** You need to refactor the production code to enable unit testing.
+
+## Best Practices
+### What makes a Valuable Test?
+- Has a high chance of catching a regression error.
+- Has a low chance of producing a false positive.
+- Provides fast feedback.
