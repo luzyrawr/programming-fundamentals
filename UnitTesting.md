@@ -113,3 +113,6 @@ Types of mocking frameworks: **Constrained and Unconstrained.**
 - Has a low chance of producing a false positive.
 - Provides fast feedback.
 - Has low maintenance cost.
+
+### When to write Mocks
+Unit tests should not test the correctness of interaction between domain objcts. Such tests experience lots of false positives and worse maintainability since they usually involve the writing of mocks.
