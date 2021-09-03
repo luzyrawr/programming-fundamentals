@@ -5,3 +5,7 @@ Unit tests are specifications of what the code should do. Writing unit tests in 
 
 **Red \ Green \ Refactor** are the three steps of TDD. We first write a **failing test**, then write the production code to make the **test pass** and then **refactor** both the production and testing code.
 
+## Three Main TDD Techniques
+- **Faking:** implies returning a constant and gradually replace constants with variables until you have the real code.
+- **Triangulation:**
+- **Obvious IMplementation:**
