@@ -9,3 +9,6 @@ Unit tests are specifications of what the code should do. Writing unit tests in 
 - **Faking:** implies returning a constant and gradually replace constants with variables until you have the real code.
 - **Triangulation:** is the process of affing test cases until the right way of implementation starts to emerge. Usually, two or three cases are enough to stop triangulation. Faking and Triangulation leads to the implementacion when the way of generalization becomes obvious.
 - **Obvious Implementation:** if the right implementation is obvious you can skip faking and triangulation. Often the obvious implementation fails at edge cases.
+
+# Notes 👀
+Write as many tests as possible before approaching the core functionality. Test all the edge cases: nulls, empty strings or objects, maximum values, all the cases which have to cause exceptions being thrown.
