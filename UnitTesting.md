@@ -140,3 +140,6 @@ Types of mocking frameworks: **Constrained and Unconstrained.**
   - User more than une mock in a single test.
   - Use both stubs and mocks in a single test.
   - Assert specific call orders or exact string matches when it isn't required.
+
+### Independency and Isolation
+- Test should not be dependent on each other.
