@@ -119,4 +119,19 @@ Types of mocking frameworks: **Constrained and Unconstrained.**
 - Always choose to use interaction testing only as the last option. Try to rely on tests that verify state or returning values, because so many things become much more complicated by having interaction tests.
 
 ### One-Assert-Per-Test
-Test one aspect/behaviour in each test.
+- Test one aspect/behaviour in each test.
+
+### Characteristics of Good Unit Testing
+- Trustworthiness
+- Maintainability
+- Readability
+
+### What to Avoid
+- Avoid control flow operators (switch, if, else, foreach, for, while). Having flow operators in a unit test is a smell wich shows that your unit test is to complex, and most likely you need to refactor into more tests.
+- Avoid Duplication. Avoid repetitive logic.
+- Avoid setting up Test Doubles in the [SetUp] method. Create mocks and stubs in each test.
+- Avoid ordered tests
+  - Creates temporal coupling between unit tests.
+  - Adding a new test to a particular order, you need to think about when that test should run.
+  - Ordered tests are slower.
+  - Ordered tests are hard to maintain.
