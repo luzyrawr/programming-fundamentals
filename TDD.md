@@ -11,4 +11,7 @@ Unit tests are specifications of what the code should do. Writing unit tests in 
 - **Obvious Implementation:** if the right implementation is obvious you can skip faking and triangulation. Often the obvious implementation fails at edge cases.
 
 # Notes 👀
-Write as many tests as possible before approaching the core functionality. Test all the edge cases: nulls, empty strings or objects, maximum values, all the cases which have to cause exceptions being thrown.
+- Write as many tests as possible before approaching the core functionality. Test all the edge cases: nulls, empty strings or objects, maximum values, all the cases which have to cause exceptions being thrown.
+- Write tests exactly in the following order: exceptional, degenerate and ancillary.
+  - Degenerative cases are those which cause the core functionality to do "nothing".
+  - Ancillary behaviors are those which support the core functionality.
