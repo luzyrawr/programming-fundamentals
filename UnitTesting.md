@@ -112,3 +112,4 @@ Types of mocking frameworks: **Constrained and Unconstrained.**
 - Has a high chance of catching a regression error.
 - Has a low chance of producing a false positive.
 - Provides fast feedback.
+- Has low maintenance cost.
