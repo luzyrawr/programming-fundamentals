@@ -14,7 +14,7 @@ Conceptos de programación básicos en distintos temas para fortalecer las bases
 ### Front-End
 1. HTML5
 1. CSS3
-1. Javascript
+1. [Javascript](https://github.com/luzyrawr/selfstudy/blob/main/JavaScript.md)
 
 ### Testing
 1. Integration Tests
