@@ -1,5 +1,6 @@
 # JavaScript
 
+## Values, Types and Operators.
 Strings can be written by enclosing their content in quotes.
 
 ```
