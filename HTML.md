@@ -14,4 +14,11 @@ HTML has several semantic elements that define the different parts of a web page
 - \<details> - Defines additional details that the user can open and close on demand
 - \<summary> - Defines a heading for the \<details> element
 
+## HTML Layout Techniques
 
+There are four different techniques to create multicolumn layouts. Each technique has its pros and cons:
+
+- **CSS framework.** If you want to create your layout fast, you can use a CSS framework, like Bootstrap.
+- **CSS float property.** It is common to do entire web layouts using the CSS float property. Float is easy to learn - you just need to remember how the float and clear properties work. Disadvantages: Floating elements are tied to the document flow, which may harm the flexibility.
+- **CSS flexbox.** Use of flexbox ensures that elements behave predictably when the page layout must accommodate different screen sizes and different display devices.
+- **CSS grid.** The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
