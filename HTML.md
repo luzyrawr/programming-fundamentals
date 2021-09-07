@@ -8,6 +8,8 @@ Examples of non-semantic elements: `<div>` and `<span>` - Tells nothing about it
 
 Examples of semantic elements: `<form>`, `<table>`, and `<article>` - Clearly defines its content.
 
+A semantic Web allows data to be shared and reused across applications, enterprises, and communities.
+
 ## HTML Layout Elements
 
 HTML has several semantic elements that define the different parts of a web page:
