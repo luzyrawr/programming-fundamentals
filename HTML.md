@@ -20,15 +20,15 @@ HTML has several semantic elements that define the different parts of a web page
 - `<aside>` - Defines content aside from the content (like a sidebar)
 - `<details>` - Defines additional details that the user can open and close on demand
 - `<figcaption>` - Defines a caption for a `<figure>` element. The `<figcaption>` element can be placed as the first or as the last child of a `<figure>` element.
-- `<figure>` - Defines self-contained content, like illustrations, diagrams, photos, code listings, etc
+- `<figure>` - Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc
 - `<footer>` - Defines a footer for a document or a section
 - `<header>` - Defines a header for a document or a section
-- `<main>`
-- `<mark>`
+- `<main>` - Specifies the main content of a document
+- `<mark>` - Defines marked/highlighted text
 - `<nav>` - Defines a set of navigation links
 - `<section>` - Defines a section in a document
 - `<summary>` - Defines a heading for the \<details> element
-- `<time>`
+- `<time>` - Defines a date/time
 
 
 
