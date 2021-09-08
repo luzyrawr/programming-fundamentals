@@ -47,3 +47,14 @@ There are four different techniques to create multicolumn layouts. Each techniqu
 - URL encoding converts non-ASCII characters into a format that can be transmitted over the Internet.
 - URL encoding replaces non-ASCII characters with a "%" followed by hexadecimal digits.
 - URLs cannot contain spaces. URL encoding normally replaces a space with a plus (+) sign, or %20.
+
+## Forms
+An HTML form is used to collect user input. The user input is most often sent to a server for processing. 
+
+### \<form>
+
+The HTML `<form>` element is used to create an HTML form for user input. The HTML `<form>` element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
+
+### \<label>
+
+The `<label>` tag defines a label for many form elements. The for attribute of the `<label>` tag should be equal to the id attribute of the <input> element to bind them together. When you click the `<label>` tag it focuses on the element binded to it.
