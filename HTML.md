@@ -49,23 +49,26 @@ There are four different techniques to create multicolumn layouts. Each techniqu
 - URLs cannot contain spaces. URL encoding normally replaces a space with a plus (+) sign, or %20.
 
 ## Forms
+
 An HTML form is used to collect user input. The user input is most often sent to a server for processing. 
 
-### \<form>
+**\<form>**
 
 The HTML `<form>` element is used to create an HTML form for user input. The HTML `<form>` element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
 
-### \<label>
+**\<label>**
 
 The `<label>` tag defines a label for many form elements. The **for attribute** of the `<label>` tag should be equal to the **id attribute** of the <input> element to bind them together. When you click the `<label>` tag it focuses the element binded to it.
 
-### \<input type="submit"> or Submit Button
+**\<input type="submit"> or Submit Button**
+
 The `<input type="submit">` defines a button for submitting the form data to a form-handler. The form-handler is typically a file on the server with a script for processing input data. The form-handler is specified in the **action attribute** of the `<form>`.
 
-### \<input>
+**\<input>**
 Notice that each input field must have a **name attribute** to be submitted. If the **name attribute** is omitted, the value of the input field will not be sent at all.
 
-## \<form> Atrributes
+### \<form> Atrributes
+
 - **accept-charset**	Specifies the character encodings used for form submission
 - **action**	Specifies where to send the form-data when a form is submitted
 - **autocomplete**	Specifies whether a form should have autocomplete on or off
