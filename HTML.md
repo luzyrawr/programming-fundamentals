@@ -57,10 +57,10 @@ The HTML `<form>` element is used to create an HTML form for user input. The HTM
 
 ### \<label>
 
-The `<label>` tag defines a label for many form elements. The for attribute of the `<label>` tag should be equal to the id attribute of the <input> element to bind them together. When you click the `<label>` tag it focuses on the element binded to it.
+The `<label>` tag defines a label for many form elements. The **for attribute** of the `<label>` tag should be equal to the **id attribute** of the <input> element to bind them together. When you click the `<label>` tag it focuses the element binded to it.
 
 ### \<input type="submit"> or Submit Button
-The `<input type="submit">` defines a button for submitting the form data to a form-handler. The form-handler is typically a file on the server with a script for processing input data. The form-handler is specified in the form's action attribute.
+The `<input type="submit">` defines a button for submitting the form data to a form-handler. The form-handler is typically a file on the server with a script for processing input data. The form-handler is specified in the **action attribute** of the `<form>`.
 
 ### \<input>
-Notice that each input field must have a name attribute to be submitted. If the name attribute is omitted, the value of the input field will not be sent at all.
+Notice that each input field must have a **name attribute** to be submitted. If the **name attribute** is omitted, the value of the input field will not be sent at all.
