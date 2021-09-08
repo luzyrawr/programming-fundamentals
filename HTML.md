@@ -79,3 +79,16 @@ Notice that each input field must have a **name attribute** to be submitted. If 
 - **rel**	Specifies the relationship between a linked resource and the current document
 - **target**	Specifies where to display the response that is received after submitting the form
 
+## HTML Form Elements
+- `<form>`	Defines an HTML form for user input
+- `<input>`	Defines an input control
+- `<textarea>`	Defines a multiline input control (text area)
+- `<label>`	Defines a label for an <input> element
+- `<fieldset>`	Groups related elements in a form
+- `<legend>`	Defines a caption for a <fieldset> element
+- `<select>`	Defines a drop-down list
+- `<optgroup>`	Defines a group of related options in a drop-down list
+- `<option>`	Defines an option in a drop-down list
+- `<button>`	Defines a clickable button
+- `<datalist>`	Specifies a list of pre-defined options for input controls
+- `<output>`	Defines the result of a calculation
