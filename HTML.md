@@ -117,3 +117,17 @@ Here are the different input types you can use in HTML:
 - `<input type="time">`
 - `<input type="url">`
 - `<input type="week">`
+  
+### The readonly Attribute
+The input `readonly` attribute specifies that an input field is read-only.
+
+A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it).
+
+The value of a read-only input field will be sent when submitting the form!
+  
+### The disabled Attribute
+The input `disabled` attribute specifies that an input field should be disabled.
+
+A disabled input field is unusable and un-clickable.
+
+The value of a disabled input field will not be sent when submitting the form!
