@@ -61,3 +61,6 @@ The `<label>` tag defines a label for many form elements. The for attribute of t
 
 ### \<input type="submit"> or Submit Button
 The `<input type="submit">` defines a button for submitting the form data to a form-handler. The form-handler is typically a file on the server with a script for processing input data. The form-handler is specified in the form's action attribute.
+
+### \<input>
+Notice that each input field must have a name attribute to be submitted. If the name attribute is omitted, the value of the input field will not be sent at all.
