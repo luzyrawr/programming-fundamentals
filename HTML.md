@@ -79,7 +79,7 @@ Notice that each input field must have a **name attribute** to be submitted. If 
 - **rel**	Specifies the relationship between a linked resource and the current document
 - **target**	Specifies where to display the response that is received after submitting the form
 
-## HTML Form Elements
+## Form Elements
 - `<form>`	Defines an HTML form for user input
 - `<input>`	Defines an input control
 - `<textarea>`	Defines a multiline input control (text area)
@@ -92,3 +92,28 @@ Notice that each input field must have a **name attribute** to be submitted. If 
 - `<button>`	Defines a clickable button
 - `<datalist>`	Specifies a list of pre-defined options for input controls
 - `<output>`	Defines the result of a calculation
+
+## Input Types
+Here are the different input types you can use in HTML:
+- `<input type="button">`
+- `<input type="checkbox">`
+- `<input type="color">`
+- `<input type="date">`
+- `<input type="datetime-local">`
+- `<input type="email">`
+- `<input type="file">`
+- `<input type="hidden">`
+- `<input type="image">`
+- `<input type="month">`
+- `<input type="number">`
+- `<input type="password">`
+- `<input type="radio">`
+- `<input type="range">`
+- `<input type="reset">`
+- `<input type="search">`
+- `<input type="submit">`
+- `<input type="tel">`
+- `<input type="text">`
+- `<input type="time">`
+- `<input type="url">`
+- `<input type="week">`
