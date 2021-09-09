@@ -15,6 +15,7 @@ Conceptos de programación básicos en distintos temas para fortalecer las bases
 1. [HTML5](https://github.com/luzyrawr/selfstudy/blob/main/HTML5.md)
 1. [CSS3](https://github.com/luzyrawr/selfstudy/blob/main/CSS3.md)
 1. [Javascript](https://github.com/luzyrawr/selfstudy/blob/main/JavaScript.md)
+1. Angular
 
 ### Testing
 1. Integration Tests
