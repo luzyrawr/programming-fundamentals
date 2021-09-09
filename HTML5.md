@@ -1,4 +1,4 @@
-# HTML
+# HTML5
 ## Semantic Elements
 > Semantic elements = elements with a meaning.
 
