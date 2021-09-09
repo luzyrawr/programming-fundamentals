@@ -18,3 +18,9 @@ We can divide CSS selectors into five categories:
 | * | * | Selects all elements |
 | element | p | Selects all `<p>` elements |
 | element,element,.. | div, p | Selects all `<div>` elements and all `<p>` elements |
+
+## Add external style sheet
+Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+```
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+```
