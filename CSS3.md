@@ -24,3 +24,8 @@ Each HTML page must include a reference to the external style sheet file inside 
 ```
 <link rel="stylesheet" href="mystyle.css">
 ```
+
+## Internal CSS
+An internal style sheet may be used if one single HTML page has a unique style.
+
+The internal style is defined inside the <style> element, inside the head section.
