@@ -238,3 +238,28 @@ Since web workers are in external files, they do not have access to the followin
 - The window object
 - The document object
 - The parent object
+
+## SSE (Server-Sent Events) API
+A server-sent event is when a web page automatically gets updates from a server.
+
+This was also possible before, but the web page would have to ask if any updates were available. With server-sent events, the updates come automatically.
+
+Examples: Facebook/Twitter updates, stock price updates, news feeds, sport results, etc.
+  
+### Receive Server-Sent Event Notifications
+  
+The EventSource object is used to receive server-sent event notifications:
+
+**Example**
+```
+var source = new EventSource("demo_sse.php");
+source.onmessage = function(event) {
+  document.getElementById("result").innerHTML += event.data + "<br>";
+};
+```
+  
+**Example explained:**
+
+- Create a new EventSource object, and specify the URL of the page sending the updates (in this example "demo_sse.php")
+- Each time an update is received, the onmessage event occurs
+- When an onmessage event occurs, put the received data into the element with id="result"
