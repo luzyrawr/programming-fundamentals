@@ -231,3 +231,10 @@ If you set the worker variable to undefined, after it has been terminated, you c
 ```
 w = undefined;
 ```
+
+### Web Workers and the DOM
+Since web workers are in external files, they do not have access to the following JavaScript objects:
+
+The window object
+The document object
+The parent object
