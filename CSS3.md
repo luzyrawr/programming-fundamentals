@@ -22,5 +22,5 @@ We can divide CSS selectors into five categories:
 ## Add external style sheet
 Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
 ```
-<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="stylesheet" href="mystyle.css">
 ```
