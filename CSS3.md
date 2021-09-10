@@ -47,8 +47,11 @@ When using the shorthand property the order of the property values is:
 
 1. background-color
 1. background-image
-1. background-repeat
-1. background-attachment
 1. background-position
+1. background-size
+1. background-repeat
+1. background-origin
+1. background-clip
+1. background-attachment
   
 It does not matter if one of the property values is missing, as long as the other ones are in this order.
