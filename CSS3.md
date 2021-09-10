@@ -29,3 +29,26 @@ Each HTML page must include a reference to the external style sheet file inside 
 An internal style sheet may be used if one single HTML page has a unique style.
 
 The internal style is defined inside the <style> element, inside the head section.
+
+## CSS background - Shorthand property
+To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.
+
+**Example**
+  
+Use the shorthand property to set the background properties in one declaration:
+  
+```
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}
+```
+  
+When using the shorthand property the order of the property values is:
+
+1. background-color
+1. background-image
+1. background-repeat
+1. background-attachment
+1. background-position
+  
+It does not matter if one of the property values is missing, as long as the other ones are in this order.
