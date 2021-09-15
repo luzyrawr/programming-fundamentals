@@ -100,7 +100,7 @@ body {
 </style>
 </head>
 ```
-- The simplest way to add an icon to your HTML page, is with an icon library, such as **Font Awesome**. To use the Font Awesome icons, go to fontawesome.com, sign in, and get a code to add in the `<head>` section of your HTML page:
+- The simplest way to add an icon to your HTML page, is with an icon library, such as **Font Awesome**. To use the Font Awesome icons, go to [fontawesome.co](www.fontawesome.com), sign in, and get a code to add in the `<head>` section of your HTML page:
 ```
 <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 ```
