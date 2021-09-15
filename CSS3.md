@@ -116,3 +116,17 @@ The simplest way to add an icon to your HTML page, is with an icon library, such
 ```
 <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 ```
+
+- **Bootstrap glyphicons**
+  
+To use the Bootstrap glyphicons, add the following line inside the `<head>` section of your HTML page:
+```
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+```
+  
+- **Google Icons**
+  
+To use the Google icons, add the following line inside the `<head>` section of your HTML page:
+```
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+```
