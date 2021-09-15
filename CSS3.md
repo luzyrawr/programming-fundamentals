@@ -73,7 +73,19 @@ Explanation of the different parts:
 - **Margin** - Clears an area outside the border. The margin is transparent
   
 The box model allows us to add a border around elements, and to define space between elements.
+
+## CSS Links
+Links can be styled with any CSS property. In addition, links can be styled differently depending on what state they are in.
+
+The four links states are:
+
+- `a:link` - a normal, unvisited link
+- `a:visited` - a link the user has visited
+- `a:hover` - a link when the user mouses over it
+- `a:active` - a link the moment it is clicked
   
+MUST be defined in that order.
+
 ## Quick tips
 ### Center element within its container
 You can set the `margin` property to `auto` to horizontally center the element within its container. The element will then take up the specified width, and the remaining space will be split equally between the left and right margins. **Example:**
@@ -130,15 +142,3 @@ To use the Google icons, add the following line inside the `<head>` section of y
 ```
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 ```
-
-## CSS Links
-Links can be styled with any CSS property. In addition, links can be styled differently depending on what state they are in.
-
-The four links states are:
-
-- `a:link` - a normal, unvisited link
-- `a:visited` - a link the user has visited
-- `a:hover` - a link when the user mouses over it
-- `a:active` - a link the moment it is clicked
-  
-MUST be defined in that order.
