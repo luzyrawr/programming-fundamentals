@@ -130,3 +130,13 @@ To use the Google icons, add the following line inside the `<head>` section of y
 ```
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 ```
+
+## CSS Links
+Links can be styled with any CSS property. In addition, links can be styled differently depending on what state they are in.
+
+The four links states are:
+
+- `a:link` - a normal, unvisited link
+- `a:visited` - a link the user has visited
+- `a:hover` - a link when the user mouses over it
+- `a:active` - a link the moment it is clicked
