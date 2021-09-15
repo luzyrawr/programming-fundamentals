@@ -75,16 +75,15 @@ Explanation of the different parts:
 The box model allows us to add a border around elements, and to define space between elements.
   
 ## Quick tips
-- You can set the `margin` property to `auto` to horizontally center the element within its container. The element will then take up the specified width, and the remaining space will be split equally between the left and right margins.
-Example:
+- You can set the `margin` property to `auto` to horizontally center the element within its container. The element will then take up the specified width, and the remaining space will be split equally between the left and right margins. **Example:**
 ```
 div {
   width: 300px;
   margin: auto;
   border: 1px solid red;
 }
-```
-- You can set the `text-decoration` property to `none` to remove the underline of the `a` links.
+``` 
+- You can set the `text-decoration` property to `none` to remove the underline of the `a` links. **Example:**
 ```
 a {
   text-decoration: none;
