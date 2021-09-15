@@ -73,3 +73,6 @@ Explanation of the different parts:
 - **Margin** - Clears an area outside the border. The margin is transparent
   
 The box model allows us to add a border around elements, and to define space between elements.
+  
+## Quick tips
+- You can set the `margin` property to `auto` to horizontally center the element within its container. The element will then take up the specified width, and the remaining space will be split equally between the left and right margins.
