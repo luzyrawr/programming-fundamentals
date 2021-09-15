@@ -89,3 +89,14 @@ a {
   text-decoration: none;
 }
 ```
+- If you do not want to use any of the standard fonts in HTML, you can use Google Fonts.
+```
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+body {
+  font-family: "Sofia", sans-serif;
+}
+</style>
+</head>
+  ```
