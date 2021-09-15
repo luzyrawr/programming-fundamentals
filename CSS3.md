@@ -140,3 +140,5 @@ The four links states are:
 - `a:visited` - a link the user has visited
 - `a:hover` - a link when the user mouses over it
 - `a:active` - a link the moment it is clicked
+  
+MUST be defined in that order.
