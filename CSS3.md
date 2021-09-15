@@ -75,7 +75,9 @@ Explanation of the different parts:
 The box model allows us to add a border around elements, and to define space between elements.
   
 ## Quick tips
-- You can set the `margin` property to `auto` to horizontally center the element within its container. The element will then take up the specified width, and the remaining space will be split equally between the left and right margins. **Example:**
+### Center element within its container
+You can set the `margin` property to `auto` to horizontally center the element within its container. The element will then take up the specified width, and the remaining space will be split equally between the left and right margins. **Example:**
+  
 ```
 div {
   width: 300px;
@@ -83,13 +85,19 @@ div {
   border: 1px solid red;
 }
 ``` 
-- You can set the `text-decoration` property to `none` to remove the underline of the `a` links. **Example:**
+  
+### \<a> links  
+You can set the `text-decoration` property to `none` to remove the underline of the `a` links. **Example:**
+  
 ```
 a {
   text-decoration: none;
 }
 ```
-- If you do not want to use any of the standard fonts in HTML, you can use **Google Fonts**.
+  
+### Fonts  
+If you do not want to use any of the standard fonts in HTML, you can use **Google Fonts**.
+  
 ```
 <head>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
@@ -100,7 +108,11 @@ body {
 </style>
 </head>
 ```
-- The simplest way to add an icon to your HTML page, is with an icon library, such as **Font Awesome**. To use the Font Awesome icons, go to [fontawesome.com](http://www.fontawesome.com), sign in, and get a code to add in the `<head>` section of your HTML page:
+  
+### Icons
+- **Font Awesome**
+
+The simplest way to add an icon to your HTML page, is with an icon library, such as Font Awesome. To use the Font Awesome icons, go to [fontawesome.com](http://www.fontawesome.com), sign in, and get a code to add in the `<head>` section of your HTML page:
 ```
 <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 ```
