@@ -84,3 +84,9 @@ div {
   border: 1px solid red;
 }
 ```
+- You can set the `text-decoration` property to `none` to remove the underline of the `a` links.
+```
+a {
+  text-decoration: none;
+}
+```
