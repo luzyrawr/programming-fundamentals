@@ -100,7 +100,23 @@ The `<div>` element is a block-level element.
 An inline element does not start on a new line and only takes up as much width as necessary.
 
 This is an inline `<span>` element inside a paragraph.
- 
+
+### Hide an Element - display:none or visibility:hidden?
+Hiding an element can be done by setting the `display` property to `none`. The element will be hidden, and the page will be displayed as if the element is not there. Example:
+```
+h1.hidden {
+  display: none;
+}
+```
+  
+`visibility:hidden;` also hides an element. However, the element will still take up the same space as before. The element will be hidden, but still affect the layout. Example:
+
+```
+h1.hidden {
+  visibility: hidden;
+}
+```
+  
 ## Quick tips
 ### Center element within its container
 You can set the `margin` property to `auto` to horizontally center the element within its container. The element will then take up the specified width, and the remaining space will be split equally between the left and right margins. **Example:**
