@@ -142,3 +142,10 @@ To use the Google icons, add the following line inside the `<head>` section of y
 ```
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 ```
+
+### Striped Tables
+  
+For zebra-striped tables, use the `nth-child()` selector and add a background-color to all even (or odd) table rows. Example:
+```
+tr:nth-child(even) {background-color: #f2f2f2;}
+```
