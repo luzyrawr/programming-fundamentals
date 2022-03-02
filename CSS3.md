@@ -145,7 +145,7 @@ A CSS pseudo-element is used to style specified parts of an element. For example
 - Style the first letter, or line, of an element
 - Insert content before, or after, the content of an element
 
-###Syntax
+### Syntax
 The syntax of pseudo-elements:
 
 ```
