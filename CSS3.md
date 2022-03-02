@@ -139,6 +139,20 @@ selector:pseudo-class {
   property: value;
 }
 ```
+
+## CSS Pseudo-Elements
+A CSS pseudo-element is used to style specified parts of an element. For example, it can be used to:
+- Style the first letter, or line, of an element
+- Insert content before, or after, the content of an element
+
+###Syntax
+The syntax of pseudo-elements:
+
+```
+selector::pseudo-element {
+  property: value;
+}
+```
   
 ## Quick tips
 ### Center element within its container
