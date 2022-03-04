@@ -178,10 +178,10 @@ To use a CSS counter, it must first be created with counter-reset.
 ## CSS Specificity Hierarchy
 Every CSS selector has its place in the specificity hierarchy. There are four categories which define the specificity level of a selector:
 
-- Inline styles - Example: <h1 style="color: pink;">
-- IDs - Example: #navbar
-- Classes, pseudo-classes, attribute selectors - Example: .test, :hover, [href]
-- Elements and pseudo-elements - Example: h1, :before
+- Inline styles - Example: `<h1 style="color: pink;">`
+- IDs - Example: `#navbar`
+- Classes, pseudo-classes, attribute selectors - Example: `.test, :hover, [href]`
+- Elements and pseudo-elements - Example: `h1, :before`
   
 ## Quick tips
 ### Center element within its container
