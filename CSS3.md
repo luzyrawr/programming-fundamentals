@@ -162,6 +162,18 @@ selector::pseudo-element {
 - The `[attribute^="value"]` selector is used to select elements with the specified attribute, whose value starts with the specified value.
 - The `[attribute$="value"]` selector is used to select elements whose attribute value ends with a specified value.
 - The `[attribute*="value"]` selector is used to select elements whose attribute value contains a specified value.
+
+## CSS Counters
+CSS counters are "variables" maintained by CSS whose values can be incremented by CSS rules (to track how many times they are used). Counters let you adjust the appearance of content based on its placement in the document.
+  
+To work with CSS counters we will use the following properties:
+
+- counter-reset - Creates or resets a counter
+- counter-increment - Increments a counter value
+- content - Inserts generated content
+- counter() or counters() function - Adds the value of a counter to an element
+  
+To use a CSS counter, it must first be created with counter-reset.
   
 ## Quick tips
 ### Center element within its container
