@@ -183,6 +183,8 @@ Every CSS selector has its place in the specificity hierarchy. There are four ca
 - Classes, pseudo-classes, attribute selectors - Example: `.test, :hover, [href]`
 - Elements and pseudo-elements - Example: `h1, :before`
   
+The `!important` rule in CSS is used to add more importance to a property/value than normal. In fact, if you use the `!important` rule, it will override ALL previous styling rules for that specific property on that element!
+  
 ## Quick tips
 ### Center element within its container
 You can set the `margin` property to `auto` to horizontally center the element within its container. The element will then take up the specified width, and the remaining space will be split equally between the left and right margins. **Example:**
