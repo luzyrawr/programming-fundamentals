@@ -168,10 +168,10 @@ CSS counters are "variables" maintained by CSS whose values can be incremented b
   
 To work with CSS counters we will use the following properties:
 
-- counter-reset - Creates or resets a counter
-- counter-increment - Increments a counter value
-- content - Inserts generated content
-- counter() or counters() function - Adds the value of a counter to an element
+- `counter-reset` - Creates or resets a counter
+- `counter-increment` - Increments a counter value
+- `content` - Inserts generated content
+- `counter()` or `counters()` function - Adds the value of a counter to an element
   
 To use a CSS counter, it must first be created with counter-reset.
   
