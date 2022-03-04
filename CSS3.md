@@ -184,6 +184,31 @@ Every CSS selector has its place in the specificity hierarchy. There are four ca
 - Elements and pseudo-elements - Example: `h1, :before`
   
 The `!important` rule in CSS is used to add more importance to a property/value than normal. In fact, if you use the `!important` rule, it will override ALL previous styling rules for that specific property on that element!
+
+## CSS Math Functions
+### The `calc()` Function
+The `calc()` function performs a calculation to be used as the property value.
+
+### CSS Syntax
+```
+calc(expression)
+```
+  
+### The `max()` Function
+The `max()` function uses the largest value, from a comma-separated list of values, as the property value.
+
+### CSS Syntax
+```
+max(value1, value2, ...)
+```
+  
+### The `min()` Function
+The `min()` function uses the smallest value, from a comma-separated list of values, as the property value.
+
+### CSS Syntax
+```
+min(value1, value2, ...)
+```
   
 ## Quick tips
 ### Center element within its container
