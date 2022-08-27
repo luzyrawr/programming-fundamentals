@@ -5,7 +5,7 @@ Conceptos de programación básicos en distintos temas para fortalecer las bases
 ## Temario
 ### Back-End
 1. [C#](https://github.com/luzyrawr/selfstudy/blob/main/C%23.md)
-1. Estructura de Datos
+1. Algoritmos y Estructura de Datos
 1. Functional Programming
 
 ### Front-End
