@@ -43,5 +43,7 @@ An **Stable** algorithm preserves the order or records with equal keys, if not, 
 
 ![image](https://user-images.githubusercontent.com/13497579/188289683-b8611663-71fb-41e9-926a-1fb7bdc6084a.png)
 
-
+### Sorting algorithms
+- Bubble Sort
+- Selection Sort
 
