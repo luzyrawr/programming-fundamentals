@@ -45,5 +45,5 @@ An **Stable** algorithm preserves the order or records with equal keys, if not, 
 
 ### Sorting algorithms
 - Bubble Sort --> Stable but slow
-- Selection Sort --> Unstable but faster than bubble sort
-
+- Selection Sort --> Unstable and slow, but faster than bubble sort
+- Insertion Sort --> Stable and slow, but faster if the array is almost ordered
