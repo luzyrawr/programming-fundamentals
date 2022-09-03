@@ -44,6 +44,8 @@ An **Stable** algorithm preserves the order or records with equal keys, if not, 
 ![image](https://user-images.githubusercontent.com/13497579/188289683-b8611663-71fb-41e9-926a-1fb7bdc6084a.png)
 
 ### Sorting algorithms
-- Bubble Sort --> Stable but slow
-- Selection Sort --> Unstable and slow, but faster than bubble sort
-- Insertion Sort --> Stable and slow, but faster if the array is almost ordered
+| Sorting Algorithm | Hint to remember the algorithm | Comments |
+|--|--|--|
+| Bubble Sort | Compare elements until reach the wall | Stable but slow |
+| Selection Sort | Compares the largest element | Unstable and slow, but faster than bubble sort |
+| Insertion Sort | Like swapping cards in a hand| Stable and slow, but faster if the array is almost ordered |
