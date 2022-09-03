@@ -48,4 +48,5 @@ An **Stable** algorithm preserves the order or records with equal keys, if not, 
 |--|--|--|
 | Bubble Sort | Compare elements until reach the wall | Stable but slow |
 | Selection Sort | Compares the largest element | Unstable and slow, but faster than bubble sort |
-| Insertion Sort | Like swapping cards in a hand| Stable and slow, but faster if the array is almost ordered |
+| Insertion Sort | Like swapping cards in a hand | Stable and slow, but faster if the array is almost ordered |
+| Shell Sort | Based on Insertion Sort, makes a presort by comparing elements separed by a gap | Unstable, Improve to Insertion Sort algorithm, easy to implement |
