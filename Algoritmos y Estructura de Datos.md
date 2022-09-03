@@ -8,6 +8,32 @@
 
 Input - Procedure (steps to transform input to output) - Output
 
+**Important questions when creating algorithms**
 - How much time will our algorithm take for solving a problem?
 - How much memory will our algorithm consume for solving a problem?
+
+### Unsafe Code
+
+**Unsafe code in C#** is the part of the program that runs outside the control of the Common Language Runtime (CLR) of the .NET frameworks. The CLR is responsible for all of the background tasks that the programmer doesn’t have to worry about like memory allocation and release, managing stack etc. Using the keyword “unsafe” means telling the compiler that the management of this code will be done by the programmer. Making a code content unsafe introduces stability and security risks as there are no bound checks in cases of arrays, memory related errors can occur which might remain unchecked etc.
+
+A programmer can make the following sub-programs as unsafe:
+- Code blocks
+- Methods
+- Types
+- Class
+- Struct
+
+Need to use the unsafe code?
+- When the program needs to implement pointers.
+- If native methods are used.
+
+**Syntax**
+
+```
+unsafe Context_declaration
+```
+
+
+
+
 
