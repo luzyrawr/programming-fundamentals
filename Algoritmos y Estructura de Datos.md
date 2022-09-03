@@ -38,5 +38,10 @@ unsafe Context_declaration
 2) Select the build option and check the “Allow unsafe code” option.
 
 ## Sorting Algorithms
+### Stable vs Unstable algorithm
+An **Stable** algorithm preserves the order or records with equal keys, if not, it's **Unstable**.
+
+![image](https://user-images.githubusercontent.com/13497579/188289683-b8611663-71fb-41e9-926a-1fb7bdc6084a.png)
+
 
 
