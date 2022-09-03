@@ -33,6 +33,9 @@ Need to use the unsafe code?
 unsafe Context_declaration
 ```
 
+**Note:** The unsafe code will not compile directly, it gives an error. Therefore, when using Visual Studio, we need to follow the given steps:
+1) Go to the project properties
+2) Select the build option and check the “Allow unsafe code” option.
 
 
 
