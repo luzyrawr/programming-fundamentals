@@ -52,4 +52,5 @@ An **Stable** algorithm preserves the order or records with equal keys, if not, 
 | Selection Sort | Compares the largest element | Unstable | In-Place | Iteration | Slow | Faster than bubble sort |
 | Insertion Sort | Like swapping cards in a hand | Stable | In-Place | Iteration | Slow | Faster if the array is almost ordered |
 | Shell Sort | Based on Insertion Sort, makes a presort by comparing elements separed by a gap | Unstable | In-Place | Iteration | Fast | Easy to implement, improve of Insertion Sort |
-| Merge Sort | Divide and Conquer, splitting and merging | Stable | Not in-place | Recursion | Fast |  |
+| Merge Sort | Divide and Conquer, splitting by half and merging | Stable | Not in-place | Recursion | Fast | Uses a lot of memory but is a fast competitor |
+| Quick Sort | Divide and Conquer, splitting by pivot, compares to pivot and swap | Unstable | In-place | Recursion | Fast | Best performing algoritms |
