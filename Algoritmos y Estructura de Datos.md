@@ -46,10 +46,10 @@ An **Stable** algorithm preserves the order or records with equal keys, if not, 
 ![image](https://user-images.githubusercontent.com/13497579/188289683-b8611663-71fb-41e9-926a-1fb7bdc6084a.png)
 
 ### Sorting algorithms
-| Sorting Algorithm | Hint to remember the algorithm | Stable/Unstable | In-Place | Speed | Comments
-|--|--|--|--|--|--|
-| Bubble Sort | Compare elements until reach the wall | Stable | In-Place | Slow | The slowest algorithm |
-| Selection Sort | Compares the largest element | Unstable | In-Place | Slow | Faster than bubble sort |
-| Insertion Sort | Like swapping cards in a hand | Stable | In-Place | Slow | Faster if the array is almost ordered |
-| Shell Sort | Based on Insertion Sort, makes a presort by comparing elements separed by a gap | Unstable | In-Place | Fast | Easy to implement, improve of Insertion Sort |
-| Merge Sort | Divide and Conquer, splitting and merging | Stable | Not in-place | | |
+| Sorting Algorithm | Hint to remember the algorithm | Stable/Unstable | In-Place | Iteration or Recursion | Speed | Comments
+|--|--|--|--|--|--|--|
+| Bubble Sort | Compare elements until reach the wall | Stable | In-Place | Iteration |Slow | The slowest algorithm |
+| Selection Sort | Compares the largest element | Unstable | In-Place | Iteration | Slow | Faster than bubble sort |
+| Insertion Sort | Like swapping cards in a hand | Stable | In-Place | Iteration | Slow | Faster if the array is almost ordered |
+| Shell Sort | Based on Insertion Sort, makes a presort by comparing elements separed by a gap | Unstable | In-Place | Iteration | Fast | Easy to implement, improve of Insertion Sort |
+| Merge Sort | Divide and Conquer, splitting and merging | Stable | Not in-place | Recursion | | |
