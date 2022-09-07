@@ -81,3 +81,5 @@ There are two major types of linked lists:
 - Push - add item to the top
 - Pop - remove the top item
 - Peek - get the top item without removing
+
+Can be implemented with array or linked list.
