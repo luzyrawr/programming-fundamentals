@@ -61,3 +61,17 @@ An **Stable** algorithm preserves the order or records with equal keys, if not, 
 A **node** is a basic build block of many data structures. A **node** serves to functions:
 1) Data container
 2) Pointer to the next node
+
+### Linked List
+**Linked List** is an abstract data type, which allows to build chains of elemnents and provide the following key elements and operations:
+- Reference to Head (first node)
+- Reference to Tail (last node)
+- Operations:
+  - Add
+  - Remove
+  - Find
+  - Enumerate
+
+There are two major types of linked lists:
+- Singly Linked List
+- Double Linked List
