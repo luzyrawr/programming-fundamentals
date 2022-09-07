@@ -83,3 +83,11 @@ There are two major types of linked lists:
 - Peek - get the top item without removing
 
 Can be implemented with array or linked list.
+
+## Queues
+**Queue** is an abstract data type, it has a linear data structure which follows a particular order in which the operations are performed. The order may be FIFO(First In First Out). It provides the following operations:
+- Push - add item to the top
+- Pop - remove the top item
+- Peek - get the top item without removing
+
+Can be implemented with array or linked list.
