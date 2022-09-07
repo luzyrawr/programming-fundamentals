@@ -73,5 +73,5 @@ A **node** is a basic build block of many data structures. A **node** serves to 
   - Enumerate
 
 There are two major types of linked lists:
-- Singly Linked List
-- Double Linked List
+- Singly Linked List: each node has a reference to the next node
+- Double Linked List: each node has a reference to the previous node and the next node
