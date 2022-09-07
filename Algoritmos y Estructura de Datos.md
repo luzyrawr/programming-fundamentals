@@ -39,6 +39,7 @@ unsafe Context_declaration
 
 ## Sorting Algorithms
 ### In-place algorithm
+Is an algorithm that does not need an extra space and produces an output in the same memory that contains the data by transforming the input ‘in-place’. However, a small constant extra space used for variables is allowed.
 
 ### Stable vs Unstable algorithm
 An **Stable** algorithm preserves the order or records with equal keys, if not, it's **Unstable**.
@@ -54,3 +55,5 @@ An **Stable** algorithm preserves the order or records with equal keys, if not, 
 | Shell Sort | Based on Insertion Sort, makes a presort by comparing elements separed by a gap | Unstable | In-Place | Iteration | Fast | Easy to implement, improve of Insertion Sort |
 | Merge Sort | Divide and Conquer, splitting by half and merging | Stable | Not in-place | Recursion | Fast | Uses a lot of memory but is a fast competitor |
 | Quick Sort | Divide and Conquer, splitting by pivot, compares to pivot and swap | Unstable | In-place | Recursion | Fast | Best performing algoritms |
+
+## Linked Lists
