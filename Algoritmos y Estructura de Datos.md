@@ -57,3 +57,7 @@ An **Stable** algorithm preserves the order or records with equal keys, if not, 
 | Quick Sort | Divide and Conquer, splitting by pivot, compares to pivot and swap | Unstable | In-place | Recursion | Fast | Best performing algoritms |
 
 ## Linked Lists
+### Node
+A **node** is a basic build block of many data structures. A **node** serves to functions:
+1) Data container
+2) Pointer to the next node
