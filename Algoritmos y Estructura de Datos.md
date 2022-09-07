@@ -75,3 +75,6 @@ A **node** is a basic build block of many data structures. A **node** serves to 
 There are two major types of linked lists:
 - Singly Linked List: each node has a reference to the next node
 - Doubly Linked List: each node has a reference to the previous node and the next node
+
+## Stack
+**Stack** is an abstract data type, it has a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out).
