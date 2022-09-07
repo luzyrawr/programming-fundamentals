@@ -77,4 +77,7 @@ There are two major types of linked lists:
 - Doubly Linked List: each node has a reference to the previous node and the next node
 
 ## Stack
-**Stack** is an abstract data type, it has a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out).
+**Stack** is an abstract data type, it has a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out). It provides the following operations:
+- Push - add item to the top
+- Pop - remove the top item
+- Peek - get the top item without removing
