@@ -14,10 +14,12 @@
 2. Product Owner
 3. Developers
 
-# Scrum Artifacts
+## Scrum Artifacts
 1. Product Backlog -> Product Goal
 2. Sprint Backlog -> Sprint Goal
 3. Increment -> Definition of Done
 
+### Product Backlog
 * **Inspection:** The process of looking at the backlog and observe its current condition.
-* **Adaptation:** when you notice something is wrong, missing or unclear, you go ahead and change that.
+* **Adaptation:** When you notice something is wrong, missing or unclear, you go ahead and change that.
+* **Refinement:** The process that continuously improve the backlog.
