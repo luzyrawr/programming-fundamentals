@@ -20,7 +20,7 @@
 3. Increment -> Definition of Done
 
 ### Product Backlog
-Is an ordered list of everything that is needed in the product like new features, improvements, fixes, etc. 
+Is an ordered list of everything that is needed in the product like new features, improvements, fixes, etc. The person responsible for the Product Backlog is the **Product Owner.**
 
 * **Inspection:** The process of looking at the backlog and observe its current condition.
 * **Adaptation:** When you notice something is wrong, missing or unclear, you go ahead and change that.
