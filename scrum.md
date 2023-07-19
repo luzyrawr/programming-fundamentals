@@ -42,3 +42,9 @@ Larger items are broken down into smaller ones.
 
 ### User Stories
 The User Stories are commonly used to describe a Product Backlog Item. A User Storie is a short descriptions of a feature explained from the perspective of the person who desires the functionality, usually a user of the product.
+
+**Template**
+
+As a "Some user"
+I want "Some objective"
+So that "some outcome"
