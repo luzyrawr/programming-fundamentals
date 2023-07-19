@@ -9,3 +9,7 @@
 
 **Responding to change** over following a plan.
 
+## Scrum Team
+1. Scrum Master
+2. Product Owner
+3. Developers
