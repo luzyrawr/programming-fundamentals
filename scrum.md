@@ -53,7 +53,9 @@ So that "some outcome"
 * **Estimate** is a guess of the effort necessary to carry out a given task
 
 ## Sprint Backlog
-Is a list of the selected PBI items for the sprint. The Sprint Goal is set by the entire Scrum Team, then the developers will decide which elements can be done in the sprint. The persons responsible for the Sprint Backlog are the **Developers**.
+Is a list of the selected PBI items for the sprint.
+
+During the Sprint Panning Meeting the Product Owner explains what needs to be done next to increase the value of the product. The Sprint Goal is set by the entire Scrum Team, then the developers will decide which items (top to bottom) can be done in the sprint and will be added to the Sprint Backlog. The persons responsible for the Sprint Backlog are the **Developers**.
 
 Elements of the Sprint Backlog:
 1. PBI items for the sprint
