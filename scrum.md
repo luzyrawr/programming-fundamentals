@@ -51,3 +51,10 @@ So that "some outcome"
 
 
 * **Estimate** is a guess of the effort necessary to carry out a given task
+
+## Sprint Backlog
+Is a list of the selected PBI items for the sprint, chosen by the developers and Product Owner of what can be done in the sprint.
+Elements of the Sprint Backlog:
+1. PBI items for the sprint
+2. Sprint Goal
+3. Plan
