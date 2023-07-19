@@ -48,3 +48,6 @@ The User Stories are commonly used to describe a Product Backlog Item. A User St
 As a "Some user"
 I want "Some objective"
 So that "some outcome"
+
+
+* **Estimate** is a guess of the effort necessary to carry out a given task
