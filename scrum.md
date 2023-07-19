@@ -18,3 +18,6 @@
 1. Product Backlog -> Product Goal
 2. Sprint Backlog -> Sprint Goal
 3. Increment -> Definition of Done
+
+* **Inspection:** The process of looking at the backlog and observe its current condition.
+* **Adaptation:** when you notice something is wrong, missing or unclear, you go ahead and change that.
