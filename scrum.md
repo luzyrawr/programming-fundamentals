@@ -62,5 +62,11 @@ Elements of the Sprint Backlog:
 2. Sprint Goal
 3. Plan
 
-   ### Increment
-   Is a new version of the product and is additive to all previous increments from all previous sprints.
+### Increment
+Is a new version of the product and is additive to all previous increments from all previous sprints. Increment needs to be usable without needed any additional work. 
+
+A Product Backlog Item or Increment must meet the "Definition of Done" to be considered complete or done. The Definition of Done must be created by the Scrum Team.
+
+
+
+
