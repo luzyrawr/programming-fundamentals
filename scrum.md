@@ -15,6 +15,6 @@
 3. Developers
 
 # Scrum Artifacts
-1. Product Backlog
-2. Sprint Backlog
-3. Increment
+1. Product Backlog -> Product Goal
+2. Sprint Backlog -> Sprint Goal
+3. Increment -> Definition of Done
