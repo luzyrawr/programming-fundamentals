@@ -61,3 +61,6 @@ Elements of the Sprint Backlog:
 1. PBI items for the sprint
 2. Sprint Goal
 3. Plan
+
+   ### Increment
+   Is a new version of the product and is additive to all previous increments from all previous sprints.
