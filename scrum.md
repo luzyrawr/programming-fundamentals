@@ -20,8 +20,19 @@
 3. Increment -> Definition of Done
 
 ### Product Backlog
-Is an ordered list of everything that is needed in the product like new features, improvements, fixes, etc. Product Backlog Item = PBI
+Is an ordered list of everything that is needed in the product like new features, improvements, fixes, etc. 
 
 * **Inspection:** The process of looking at the backlog and observe its current condition.
 * **Adaptation:** When you notice something is wrong, missing or unclear, you go ahead and change that.
 * **Refinement:** The process that continuously improve the backlog (clarifying details, answering questions, or adding things that need to be done).
+
+**Attributes of a Product Backlog Item (PBI)**
+
+* Description
+* Order
+* Size
+* Value
+* Acceptance criteria
+
+
+
