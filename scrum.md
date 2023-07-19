@@ -67,6 +67,12 @@ Is a new version of the product and is additive to all previous increments from 
 
 A Product Backlog Item or Increment must meet the "Definition of Done" to be considered complete or done. The Definition of Done must be created by the Scrum Team.
 
+If a Product Backlog Item doesn't follow the Definition of Done, it will not be included in the Product Increment.
+
+The Definition of Done is directly related to the quality of the product.
+
+During the Sprint Retrospective, the Scrum Teams plan how to increase the quality of the product by updating the Definition of Done.
+
 
 
 
