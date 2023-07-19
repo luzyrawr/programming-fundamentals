@@ -22,4 +22,4 @@
 ### Product Backlog
 * **Inspection:** The process of looking at the backlog and observe its current condition.
 * **Adaptation:** When you notice something is wrong, missing or unclear, you go ahead and change that.
-* **Refinement:** The process that continuously improve the backlog.
+* **Refinement:** The process that continuously improve the backlog (clarifying details, answering questions, or adding things that need to be done).
