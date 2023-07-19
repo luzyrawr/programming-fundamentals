@@ -13,3 +13,8 @@
 1. Scrum Master
 2. Product Owner
 3. Developers
+
+# Scrum Artifacts
+1. Product Backlog
+2. Sprint Backlog
+3. Increment
